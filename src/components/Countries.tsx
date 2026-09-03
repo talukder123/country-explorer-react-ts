@@ -14,6 +14,11 @@ export default function Countries({countriesPromise}: CountriesProps) {
     return (
         <div>
             <h2>Countries: </h2>
+            <ul>
+                {
+                    countries.map((country) => <li>{country.name.common}</li>)
+                }
+            </ul>
         </div>
     )
 }
