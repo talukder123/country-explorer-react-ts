@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import './App.css'
 import type { CountryType } from './type';
-import Countries from './components/Countries';
+import Countries from './components/Countries/Countries';
 
 // creating promise!
 const countriesPromise = async ():Promise<CountryType[]> => {
