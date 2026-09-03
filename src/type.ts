@@ -12,4 +12,13 @@ export interface CountryType {
     ccn3: {
         ccn3: string
     }
+    capital: {
+        capital: string[]
+    }
+    population: {
+        population: number
+    }
+    region: {
+        region: string
+    }
 }

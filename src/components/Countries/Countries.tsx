@@ -10,11 +10,12 @@ export interface CountriesProps {
 export default function Countries({countriesPromise}: CountriesProps) {
 
     const countries = use(countriesPromise);
-    console.log(countries);
+    // console.log(countries);
 
     return (
         <div>
-            <h2>Countries:</h2>
+            <p>Hello, Lets explore earth with Talukder</p>
+            <h2>Total Countries: {countries.length} </h2>
 
             <div className="countries">
                 {
