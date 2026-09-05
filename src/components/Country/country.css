@@ -8,3 +8,52 @@
 .country img {
     width: 120px;
 }
+
+.country-visited {
+    background-color: lightpink;
+}
+
+.visit-btn {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+  margin: 5px;
+}
+
+.visit-btn:hover {
+  background: #222;
+  transform: translateY(-1px);
+}
+
+.visit-btn:active {
+  transform: translateY(0);
+}
+
+
+
+
+
+.visit-flag {
+  padding: 6px 12px;
+  background: #f97316;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.visit-flag:hover {
+  background: #ea580c;
+  transform: translateY(-1px);
+}
